@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34eb212b-9fa2-445b-b7da-3a3e63fb5c82" name="Changes" comment="Maze on python">
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/лабиринт/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/maze 1 player test.py" afterDir="false" />
+    <list default="true" id="34eb212b-9fa2-445b-b7da-3a3e63fb5c82" name="Changes" comment="Исправление ошибки">
       <change afterPath="$PROJECT_DIR$/venv/maze 2 player main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/maze 2 player test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/maze 2 player test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/maze 2 player test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="C:\Users\Matvey\Documents\инфа\лабиринт" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="лабиринт" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682108044377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Исправление ошибки">
+      <created>1682189182076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682189182076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +174,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Добавление 2-х игроков и распределение кода" />
     <MESSAGE value="Maze on python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maze on python" />
+    <MESSAGE value="Исправление ошибки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление ошибки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

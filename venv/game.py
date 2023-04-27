@@ -46,7 +46,7 @@ flag = True
 flag1 = True
 run = True
 
-def move_first(player_x,player_y,player_speed):
+def move_first(player_x,player_y,player_speed,walk_right,walk_left):
     keys = pygame.key.get_pressed()
     if keys[pygame.K_d]:
         screen.blit(walk_right[player_anim_cnt], (player_x, player_y))
@@ -62,10 +62,10 @@ def move_first(player_x,player_y,player_speed):
         player_y -= player_speed
     return [player_x,player_y]
 
-def move_second(player_x,player_y,player_speed):
+def move_second(player_x,player_y,player_speed,walk_right,walk_left):
     keys = pygame.key.get_pressed()
     if keys[pygame.K_RIGHT]:
-        screen.blit(walk_left2[player_anim_cnt], (player_x, player_y))
+        screen.blit(walk_right[player_anim_cnt], (player_x, player_y))
     elif keys[pygame.K_LEFT]:
         screen.blit(walk_left[player_anim_cnt], (player_x, player_y))
     if keys[pygame.K_LEFT] and player_x > 0:
