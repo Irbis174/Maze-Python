@@ -102,7 +102,7 @@ def mouse_actions(restart_lable_rect,gameplay,player_x,player_y,player_x1,player
         flag = True
     return [gameplay,player_x,player_y,player_x1,player_y1,flag]
 
-def mouse_actions(restart_lable_rect,gameplay,player_x,player_y,flag):
+def mouse_actions_2(restart_lable_rect,gameplay,player_x,player_y,flag):
     mouse = pygame.mouse.get_pos()
     if restart_lable_rect.collidepoint(mouse) and pygame.mouse.get_pressed()[0]:
         gameplay = True

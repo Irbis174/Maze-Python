@@ -17,10 +17,10 @@ while run:
 
         screen.blit(end_square, (1307,687))
         if (bg.get_at((player_x + 5, player_y + 25)) == (255, 255, 255, 255)) and (bg.get_at((player_x + 15, player_y + 20)) == (255, 255, 255, 255)):
-            player_x, player_y = move_first(player_x, player_y, player_speed)
+            player_x, player_y = move_first(player_x, player_y, player_speed,walk_right, walk_left)
         else:
-            player_x = 0
-            player_y = 10
+            player_x = 1307
+            player_y = 687
 
         if player_anim_cnt == 3:
             player_anim_cnt = 0
@@ -29,7 +29,7 @@ while run:
     else:
         scr(screen, win_lable, restart_lable, cnt)
 
-        gameplay, player_x, player_y, flag = mouse_actions(restart_lable_rect, gameplay, player_x, player_y, flag)
+        gameplay, player_x, player_y, flag = mouse_actions_2(restart_lable_rect, gameplay,  flag, player_x, player_y)
     pygame.display.update()
 
     for event in pygame.event.get():
